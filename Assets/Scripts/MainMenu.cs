@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameObject optionsMenu;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,8 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    private void OnMouseEnter()
+    public void OpenOptionsMenu()
     {
+        optionsMenu.SetActive(true);
     }
 }
