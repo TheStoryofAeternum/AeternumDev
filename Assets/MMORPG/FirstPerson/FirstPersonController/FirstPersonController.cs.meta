@@ -3,7 +3,12 @@ guid: d90ba6530d9bfda47abb4610956b2f44
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - playerCamera: {instanceID: 0}
+  - crosshairImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  - sprintBarBG: {instanceID: 0}
+  - sprintBar: {instanceID: 0}
+  - joint: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
